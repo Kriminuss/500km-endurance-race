@@ -1,0 +1,37 @@
+/* Barra de navegación */
+.nav {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  background-color: #272523;
+  padding: 10px 20px;
+  flex-wrap: wrap; /* Asegura que los botones se ajusten a la pantalla y no creen scroll horizontal */
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px; /* Reduce el padding de los botones */
+  margin: 5px; /* Añade espacio entre los botones */
+  background-color: #272523;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+  .nav {
+    justify-content: space-around; /* Distribuye los botones horizontalmente */
+  }
+
+  .nav a {
+   
+    font-size: 18px; /* Reduce el tamaño de los botones para evitar scroll horizontal */
+    padding: 5px 8px; /* Ajusta el padding de los botones para pantallas pequeñas */
+  }
+}

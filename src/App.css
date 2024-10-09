@@ -1,0 +1,133 @@
+/* Estilos generales */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+  background-color: #272523;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #272523;
+  padding: 5px 0; /* Reducimos el padding del header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+section {
+  padding: 50px 10px; /* Reducimos el padding vertical en las secciones */
+  color: white;
+  background-color: #272523;
+  margin: 0; /* Eliminamos el margen entre las secciones */
+}
+#circuitos {
+  margin-top: 0; /* Sin márgenes superiores */
+  padding-top: 0; /* Eliminar padding en la parte superior */
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Botón flotante "Volver al inicio" */
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#back-to-top.show {
+  display: block;
+}
+
+.galeria-section {
+  padding: 50px 20px;
+  background-color: #272523;
+  color: white;
+  text-align: center;
+}
+
+.galeria-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.galeria-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.galeria-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.galeria-button:hover {
+  background-color: #cc0000;
+}
+
+@media only screen and (max-width: 768px) {
+  .galeria-button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
+
+/* Ajustes para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: row; /* Mantenemos los botones en horizontal */
+    justify-content: space-around; /* Espacia los botones horizontalmente */
+  }
+
+  section {
+    padding: 30px 10px; /* Reducimos más el padding en móviles */
+  }
+
+  section h2 {
+    font-size: 28px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+
+  #back-to-top {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+}

@@ -1,0 +1,62 @@
+.circuitos-section {
+  padding: 0px 20px;
+  background-color: #272523;
+  color: white;
+  text-align: center;
+  margin-top: 0; /* Eliminamos el margen superior */
+  padding-top: 0; /* Eliminamos el padding superior */
+}
+  
+.circuitos-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+  
+.circuitos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+  
+.circuito-item {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 300px;
+  text-align: left;
+}
+  
+.circuito-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+  
+.circuito-info {
+  padding: 15px;
+}
+  
+.circuito-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+  
+.circuito-info p {
+  font-size: 16px;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+  
+.circuito-info a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+  
+.circuito-info a:hover {
+  color: #ff5555;
+}

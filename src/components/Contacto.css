@@ -1,0 +1,79 @@
+.contacto-section {
+    padding: 50px 20px;
+    background-color: #272523;
+    color: white;
+    text-align: center;
+  }
+  
+  .contacto-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  /* Estilos del formulario */
+  .contacto-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media only screen and (max-width: 768px) {
+    .contacto-section {
+      padding: 30px 10px;
+    }
+  
+    .contacto-section h2 {
+      font-size: 28px;
+    }
+  
+    .submit-button {
+      padding: 12px 30px;
+      font-size: 16px;
+    }
+  }
+  

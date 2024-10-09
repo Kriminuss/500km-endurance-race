@@ -1,0 +1,85 @@
+.informacion-section {
+    padding: 50px 20px;
+    background-color: #272523;
+    color: white;
+    text-align: center;
+  }
+  
+  .informacion-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+  
+  /* Galería de imágenes */
+  .informacion-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto 40px; /* Añadimos margen inferior */
+  }
+  
+  .informacion-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .informacion-gallery img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón por encima */
+  }
+  
+  /* Botón grande para descargar */
+  .download-button {
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #cc0000; /* Oscurecemos el botón al hacer hover */
+  }
+  
+  /* Enlace simple para descargar (opcional) */
+  .download-link {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+  }
+  
+  .download-link:hover {
+    color: #cc0000;
+  }
+  
+  /* Ajustes para pantallas pequeñas */
+  @media only screen and (max-width: 768px) {
+    .informacion-section {
+      padding: 30px 10px;
+    }
+  
+    .informacion-section h2 {
+      font-size: 28px;
+    }
+  
+    .informacion-gallery {
+      grid-template-columns: 1fr; /* Una columna en móviles */
+    }
+  
+    .download-button {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  }
+  
