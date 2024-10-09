@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/500km-endurance-race/static/css/main.1a788fdf.css",
-    "main.js": "/500km-endurance-race/static/js/main.eebcd56f.js",
+    "main.js": "/500km-endurance-race/static/js/main.0a124ccc.js",
     "static/js/453.06bc7071.chunk.js": "/500km-endurance-race/static/js/453.06bc7071.chunk.js",
     "static/media/honda-civic.jpg": "/500km-endurance-race/static/media/honda-civic.8c810c0a63803040f4c7.jpg",
     "index.html": "/500km-endurance-race/index.html",
     "main.1a788fdf.css.map": "/500km-endurance-race/static/css/main.1a788fdf.css.map",
-    "main.eebcd56f.js.map": "/500km-endurance-race/static/js/main.eebcd56f.js.map",
+    "main.0a124ccc.js.map": "/500km-endurance-race/static/js/main.0a124ccc.js.map",
     "453.06bc7071.chunk.js.map": "/500km-endurance-race/static/js/453.06bc7071.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a788fdf.css",
-    "static/js/main.eebcd56f.js"
+    "static/js/main.0a124ccc.js"
   ]
 }
