@@ -6,11 +6,10 @@ const Hero = () => {
     <section
       className="hero"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/honda-civic.jpg)`, // Aplica el fondo correctamente
-        backgroundSize: 'cover', // Asegura que la imagen cubra el área
-        backgroundRepeat: 'no-repeat', // Evita la repetición
-        backgroundPosition: 'center', // Centra la imagen
-        backgroundAttachment: 'fixed', // Fija la imagen cuando se hace scroll
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/honda-civic.jpg)`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
       }}
     >
       <div className="hero-text">
