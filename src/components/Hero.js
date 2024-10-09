@@ -1,11 +1,18 @@
 import React from 'react';
 import './Hero.css';
-import hondaCivic from '../assets/images/honda-civic.jpg'; // Importa la imagen desde src
 
 const Hero = () => {
   return (
-    <section className="hero">
-      <div className="background-image" /> {/* Imagen de fondo difuminada */}
+    <section
+      className="hero"
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/honda-civic.jpg)`, // Aplica el fondo correctamente
+        backgroundSize: 'cover', // Asegura que la imagen cubra el área
+        backgroundRepeat: 'no-repeat', // Evita la repetición
+        backgroundPosition: 'center', // Centra la imagen
+        backgroundAttachment: 'fixed', // Fija la imagen cuando se hace scroll
+      }}
+    >
       <div className="hero-text">
         <h1>500KM</h1>
         <h1>ENDURANCE</h1>
