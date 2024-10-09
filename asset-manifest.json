@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/500km-endurance-race/static/css/main.1a788fdf.css",
-    "main.js": "/500km-endurance-race/static/js/main.1b677a4c.js",
+    "main.css": "/500km-endurance-race/static/css/main.10596fa5.css",
+    "main.js": "/500km-endurance-race/static/js/main.2d9051b9.js",
     "static/js/453.06bc7071.chunk.js": "/500km-endurance-race/static/js/453.06bc7071.chunk.js",
-    "static/media/honda-civic.jpg": "/500km-endurance-race/static/media/honda-civic.8c810c0a63803040f4c7.jpg",
     "index.html": "/500km-endurance-race/index.html",
-    "main.1a788fdf.css.map": "/500km-endurance-race/static/css/main.1a788fdf.css.map",
-    "main.1b677a4c.js.map": "/500km-endurance-race/static/js/main.1b677a4c.js.map",
+    "main.10596fa5.css.map": "/500km-endurance-race/static/css/main.10596fa5.css.map",
+    "main.2d9051b9.js.map": "/500km-endurance-race/static/js/main.2d9051b9.js.map",
     "453.06bc7071.chunk.js.map": "/500km-endurance-race/static/js/453.06bc7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a788fdf.css",
-    "static/js/main.1b677a4c.js"
+    "static/css/main.10596fa5.css",
+    "static/js/main.2d9051b9.js"
   ]
 }
