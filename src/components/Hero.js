@@ -17,7 +17,7 @@ const Hero = () => {
         <h1>ENDURANCE</h1>
         <h1>RACE</h1>
         <p>
-          Descubre el campeonato 500Km. Evento creado para los amantes del motor y la adrenalina,
+          Descubre el campeonato 500Km. Evento creado para los amanteeeees del motor y la adrenalina,
           donde podrás disfrutar de un desafío único de resistencia.
         </p>
         <p>
