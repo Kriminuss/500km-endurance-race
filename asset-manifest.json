@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/500km-endurance-race/static/css/main.77a49706.css",
-    "main.js": "/500km-endurance-race/static/js/main.89435c00.js",
+    "main.css": "/500km-endurance-race/static/css/main.f63c241e.css",
+    "main.js": "/500km-endurance-race/static/js/main.975284e7.js",
     "static/js/453.06bc7071.chunk.js": "/500km-endurance-race/static/js/453.06bc7071.chunk.js",
     "index.html": "/500km-endurance-race/index.html",
-    "main.77a49706.css.map": "/500km-endurance-race/static/css/main.77a49706.css.map",
-    "main.89435c00.js.map": "/500km-endurance-race/static/js/main.89435c00.js.map",
+    "main.f63c241e.css.map": "/500km-endurance-race/static/css/main.f63c241e.css.map",
+    "main.975284e7.js.map": "/500km-endurance-race/static/js/main.975284e7.js.map",
     "453.06bc7071.chunk.js.map": "/500km-endurance-race/static/js/453.06bc7071.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77a49706.css",
-    "static/js/main.89435c00.js"
+    "static/css/main.f63c241e.css",
+    "static/js/main.975284e7.js"
   ]
 }
